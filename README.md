@@ -1,16 +1,27 @@
-## Hi there 👋
+# Hi, I'm Mahesh 👋
 
-<!--
-**aadeshmahesh/aadeshmahesh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Senior Frontend Engineer → AI Full Stack Engineer**  
+16 years experience · Scottsdale, AZ · Open to opportunities
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🤖 What I'm Building
+
+I'm going deep on **agentic AI engineering** — not just prompting,
+but building agents from scratch. Tool use, RAG pipelines,
+human-in-the-loop patterns, and multi-agent orchestration.
+
+---
+
+## 🚀 AI Agent Projects
+
+| Project | What it does | New concept |
+|---|---|---|
+| [📅 Calendar Agent](https://github.com/gopiot/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
+| [🛠️ IT Support Agent](https://github.com/gopiot/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
+| 🔄 HR Onboarding Agent *(coming soon)* | Creates accounts, assigns hardware, waits for manager approval | Human-in-the-loop + webhook |
+| 🔍 Code Review Agent *(coming soon)* | Multi-agent PR review — security, performance, style | Orchestrator pattern |
+
+---
+
+## 🧠 AI Concepts I've Built
