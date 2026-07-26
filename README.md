@@ -47,8 +47,11 @@ Neon Postgres · Drizzle ORM · Cloudflare R2/KV · Redis
 ## 📈 16 Years of Engineering
 
 2010 → PHP, Perl, jQuery — e-commerce foundations
+
 2015 → React, Redux — modern frontend
+
 2020 → TypeScript, micro-frontends, design systems
+
 2026 → AI agents, RAG, agentic engineering
 
 Key work: Migrated 150+ retail sites (Bazaarvoice → PowerReviews),
