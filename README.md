@@ -19,6 +19,7 @@ human-in-the-loop patterns, and multi-agent orchestration.
 |---|---|---|
 | [📅 Calendar Agent](https://github.com/aadeshmahesh/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
 | [🛠️ IT Support Agent](https://github.com/aadeshmahesh/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
+| [🔍 Site Search Agent](https://github.com/aadeshmahesh/site-search-agent) | Semantic product search — finds "running shoes" from "footwear for jogging" | Real embeddings + pgvector |
 | 🔄 HR Onboarding Agent *(coming soon)* | Creates accounts, assigns hardware, waits for manager approval | Human-in-the-loop + webhook |
 | 🔍 Code Review Agent *(coming soon)* | Multi-agent PR review — security, performance, style | Orchestrator pattern |
 
