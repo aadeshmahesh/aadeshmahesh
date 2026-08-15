@@ -16,12 +16,12 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 
 | Project | What it does | New concept |
 |---|---|---|
-| [📅 Calendar Agent](https://github.com/gopiot/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
-| [🛠️ IT Support Agent](https://github.com/gopiot/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
-| [🔍 Site Search Agent](https://github.com/gopiot/site-search-agent) | Semantic product search — finds "running shoes" from "footwear for jogging" | Real embeddings + pgvector |
-| [🍽️ Restaurant Agent](https://github.com/gopiot/restaurant-agent) | Food recommendations with all production patterns | MCP + streaming SSE + Redis cache |
-| [🔌 Restaurant MCP Server](https://github.com/gopiot/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
-| [👥 HR Onboarding Agent](https://github.com/gopiot/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
+| [📅 Calendar Agent](https://github.com/aadeshmahesh/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
+| [🛠️ IT Support Agent](https://github.com/aadeshmahesh/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
+| [🔍 Site Search Agent](https://github.com/aadeshmahesh/site-search-agent) | Semantic product search — finds "running shoes" from "footwear for jogging" | Real embeddings + pgvector |
+| [🍽️ Restaurant Agent](https://github.com/aadeshmahesh/restaurant-agent) | Food recommendations with all production patterns | MCP + streaming SSE + Redis cache |
+| [🔌 Restaurant MCP Server](https://github.com/aadeshmahesh/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
+| [👥 HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
 | 🔄 Code Review Agent *(coming soon)* | Multi-agent PR review — security, performance, style | Orchestrator pattern |
 
 ---
