@@ -22,7 +22,7 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 | [🍽️ Restaurant Agent](https://github.com/aadeshmahesh/restaurant-agent) | Food recommendations with all production patterns | MCP + streaming SSE + Redis cache |
 | [🔌 Restaurant MCP Server](https://github.com/aadeshmahesh/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
 | [👥 HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
-| 🔄 Code Review Agent *(coming soon)* | Multi-agent PR review — security, performance, style | Orchestrator pattern |
+| [🔍 Code Review Agent](https://github.com/aadeshmahesh/code-review-agent) | Multi-agent code review — Security, Performance and Style agents run in parallel | Multi-agent orchestrator pattern |
 
 ---
 
@@ -46,8 +46,8 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 ✅ Idempotent Tools      Safe to retry — never duplicates work
 ✅ State Machine         started → waiting_approval → completed
 ✅ Session Logging       Full request/response + token cost
-🔄 Multi-Agent           Orchestrator + specialists (coming soon)
-🔄 Streaming Agents      Token-by-token with tool visibility
+✅ Multi-Agent           Orchestrator + 3 parallel specialists
+✅ Promise.all()         All specialist agents run simultaneously
 ```
 
 ---
@@ -64,7 +64,7 @@ React 18/19 · TypeScript · Redux Toolkit · TanStack Query · Vite
 Node.js · Hono · Express · Cloudflare Workers · Zod · Bottleneck
 
 **Data**  
-Neon Postgres · Drizzle ORM · Upstash Redis · pgvector · Drizzle ORM
+Neon Postgres · Drizzle ORM · Upstash Redis · pgvector
 
 ---
 
@@ -82,3 +82,7 @@ Oracle Endeca search integration, Adyen payments, Perl automation
 eliminating manual regional rollouts across large e-commerce program.
 
 ---
+
+## 🌐 Portfolio
+
+[maheshbuilds.dev](https://maheshbuilds.dev) — case studies, blog, and AI engineering notes
