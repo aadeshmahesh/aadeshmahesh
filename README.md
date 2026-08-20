@@ -23,6 +23,8 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 | [🔌 Restaurant MCP Server](https://github.com/aadeshmahesh/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
 | [👥 HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
 | [🔍 Code Review Agent](https://github.com/aadeshmahesh/code-review-agent) | Multi-agent code review — Security, Performance and Style agents run in parallel | Multi-agent orchestrator pattern |
+| [⚙️ AEM Knowledge Agent](https://github.com/aadeshmahesh/aem-knowledge-agent) | Internal KB agent — answers AEM questions, finds page owners, troubleshoots errors | Hybrid search (SQL + pgvector) + Redis cache |
+| [☁️ Document Intelligence Pipeline](https://github.com/aadeshmahesh/document-intelligence) | Upload PDF → S3 → Lambda → Textract → Bedrock Claude → DynamoDB → Q&A | AWS serverless + Docker + CI/CD |
 
 ---
 
@@ -48,6 +50,13 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 ✅ Session Logging       Full request/response + token cost
 ✅ Multi-Agent           Orchestrator + 3 parallel specialists
 ✅ Promise.all()         All specialist agents run simultaneously
+✅ Hybrid Search         SQL keyword + pgvector semantic combined
+✅ Configurable Search   Runtime switch between search modes
+✅ SQL KB Pattern        LLM queries structured DB via tools
+✅ AWS Lambda            Serverless event-driven functions
+✅ S3 Event Triggers     Upload → auto-trigger Lambda
+✅ Docker + ECR          Containerized Lambda functions
+✅ CI/CD                 GitHub Actions → ECR → Lambda deploy
 ```
 
 ---
@@ -55,16 +64,19 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 ## 🛠️ Stack
 
 **AI**  
-Anthropic Claude · Voyage AI · MCP Protocol · RAG · pgvector · Streaming SSE
+Anthropic Claude · Voyage AI · MCP Protocol · RAG · pgvector · Streaming SSE · AWS Bedrock · AWS Textract
 
 **Frontend**  
-React 18/19 · TypeScript · Redux Toolkit · TanStack Query · Vite
+React 18/19 · TypeScript · Redux Toolkit · TanStack Query · Vite · AWS Amplify
 
 **Backend**  
-Node.js · Hono · Express · Cloudflare Workers · Zod · Bottleneck
+Node.js · Hono · Express · Cloudflare Workers · AWS Lambda · Zod · Bottleneck
 
 **Data**  
-Neon Postgres · Drizzle ORM · Upstash Redis · pgvector
+Neon Postgres · Drizzle ORM · Upstash Redis · pgvector · AWS DynamoDB · AWS S3
+
+**DevOps**  
+Docker · AWS ECR · GitHub Actions · AWS API Gateway · AWS CDK
 
 ---
 
@@ -74,7 +86,7 @@ Neon Postgres · Drizzle ORM · Upstash Redis · pgvector
 2010 → PHP, Perl, jQuery — e-commerce foundations
 2015 → React, Redux — modern frontend
 2020 → TypeScript, micro-frontends, design systems
-2026 → AI agents, RAG, MCP, agentic engineering
+2026 → AI agents, RAG, MCP, AWS serverless, agentic engineering
 ```
 
 Key work: Migrated 150+ retail sites (Bazaarvoice → PowerReviews) and LivePerson migration.
