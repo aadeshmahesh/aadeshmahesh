@@ -24,7 +24,8 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 | [👥 HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
 | [🔍 Code Review Agent](https://github.com/aadeshmahesh/code-review-agent) | Multi-agent code review — Security, Performance and Style agents run in parallel | Multi-agent orchestrator pattern |
 | [⚙️ AEM Knowledge Agent](https://github.com/aadeshmahesh/aem-knowledge-agent) | Internal KB agent — answers AEM questions, finds page owners, troubleshoots errors | Hybrid search (SQL + pgvector) + Redis cache |
-| [☁️ Document Intelligence Pipeline](https://github.com/aadeshmahesh/document-intelligence) | Upload PDF → S3 → Lambda → Textract → Bedrock Claude → DynamoDB → Q&A | AWS serverless + Docker + CI/CD |
+| [☁️ Document Intelligence Pipeline](https://github.com/aadeshmahesh/document-intelligence) | Upload PDF → S3 → Lambda → Bedrock Claude → DynamoDB → Q&A | AWS serverless + Docker + CI/CD |
+| [💼 Job Application Agent](https://github.com/aadeshmahesh/job-application-agent) | Analyzes job descriptions against resume using pgvector semantic search — returns match score, skill gaps, and learning recommendations. Auto-saves to application tracker. Live on Railway + Cloudflare | Resume as RAG KB + skill gap analysis + production deploy |
 
 ---
 
@@ -57,6 +58,11 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 ✅ S3 Event Triggers     Upload → auto-trigger Lambda
 ✅ Docker + ECR          Containerized Lambda functions
 ✅ CI/CD                 GitHub Actions → ECR → Lambda deploy
+✅ Resume as RAG KB      Claude splits resume → Voyage AI embeds → pgvector search
+✅ Skill Gap Analysis    Semantic JD vs resume comparison with match scoring
+✅ Application Tracking  Status machine: saved → applied → interviewing → offer
+✅ Production Deploy     Railway (Node.js) + Cloudflare Pages (React)
+✅ JWT + Rate Limiting   Auth + express-rate-limit protecting Anthropic API costs
 ```
 
 ---
@@ -76,7 +82,7 @@ Node.js · Hono · Express · Cloudflare Workers · AWS Lambda · Zod · Bottlen
 Neon Postgres · Drizzle ORM · Upstash Redis · pgvector · AWS DynamoDB · AWS S3
 
 **DevOps**  
-Docker · AWS ECR · GitHub Actions · AWS API Gateway · AWS CDK
+Docker · AWS ECR · GitHub Actions · AWS API Gateway · AWS CDK · Railway · Cloudflare Pages
 
 ---
 
