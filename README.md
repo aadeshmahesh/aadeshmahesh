@@ -2,19 +2,9 @@
 **Senior Frontend Engineer → AI Full Stack Engineer**  
 16 years experience · Scottsdale, AZ · Open to opportunities
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=aadeshmahesh.aadeshmahesh)
-
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aadeshmahesh&theme=github-dark&hide_border=true" />
-</p>
-
----
-
-## 🤖 What I'm Building
+## What I'm Building
 
 I'm going deep on **agentic AI engineering** — not just prompting,
 but building agents from scratch. Tool use, RAG pipelines,
@@ -22,24 +12,24 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 
 ---
 
-## 🚀 AI Agent Projects
+## AI Agent Projects
 
 | Project | What it does | New concept |
 |---|---|---|
-| [💼 Job Application Agent](https://github.com/aadeshmahesh/job-application-agent) | Analyzes job descriptions against resume using pgvector semantic search — returns match score, skill gaps, and learning recommendations. Auto-saves to application tracker. Live on Railway + Cloudflare | Resume as RAG KB + skill gap analysis + production deploy |
-| [☁️ Document Intelligence Pipeline](https://github.com/aadeshmahesh/document-intelligence) | Upload PDF → S3 → Lambda → Bedrock Claude → DynamoDB → Q&A | AWS serverless + Docker + CI/CD |
-| [⚙️ AEM Knowledge Agent](https://github.com/aadeshmahesh/aem-knowledge-agent) | Internal KB agent — answers AEM questions, finds page owners, troubleshoots errors | Hybrid search (SQL + pgvector) + Redis cache |
-| [🔍 Code Review Agent](https://github.com/aadeshmahesh/code-review-agent) | Multi-agent code review — Security, Performance and Style agents run in parallel | Multi-agent orchestrator pattern |
-| [👥 HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
-| [🍽️ Restaurant Agent](https://github.com/aadeshmahesh/restaurant-agent) | Food recommendations with all production patterns | MCP + streaming SSE + Redis cache |
-| [🔌 Restaurant MCP Server](https://github.com/aadeshmahesh/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
-| [🔍 Site Search Agent](https://github.com/aadeshmahesh/site-search-agent) | Semantic product search — finds "running shoes" from "footwear for jogging" | Real embeddings + pgvector |
-| [🛠️ IT Support Agent](https://github.com/aadeshmahesh/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
-| [📅 Calendar Agent](https://github.com/aadeshmahesh/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
+| [Job Application Agent](https://github.com/aadeshmahesh/job-application-agent) | Analyzes job descriptions against resume using pgvector semantic search — returns match score, skill gaps, and learning recommendations. Auto-saves to application tracker. Live on Railway + Cloudflare | Resume as RAG KB + skill gap analysis + production deploy |
+| [Document Intelligence Pipeline](https://github.com/aadeshmahesh/document-intelligence) | Upload PDF → S3 → Lambda → Bedrock Claude → DynamoDB → Q&A | AWS serverless + Docker + CI/CD |
+| [AEM Knowledge Agent](https://github.com/aadeshmahesh/aem-knowledge-agent) | Internal KB agent — answers AEM questions, finds page owners, troubleshoots errors | Hybrid search (SQL + pgvector) + Redis cache |
+| [Code Review Agent](https://github.com/aadeshmahesh/code-review-agent) | Multi-agent code review — Security, Performance and Style agents run in parallel | Multi-agent orchestrator pattern |
+| [HR Onboarding Agent](https://github.com/aadeshmahesh/hr-onboarding-agent) | Onboards employees — pauses for manager approval, resumes via webhook | Human-in-the-loop + persistent state |
+| [Restaurant Agent](https://github.com/aadeshmahesh/restaurant-agent) | Food recommendations with all production patterns | MCP + streaming SSE + Redis cache |
+| [Restaurant MCP Server](https://github.com/aadeshmahesh/restaurant-mcp-server) | Standalone MCP server — any AI connects via SSE URL | MCP protocol + Zod validation |
+| [Site Search Agent](https://github.com/aadeshmahesh/site-search-agent) | Semantic product search — finds "running shoes" from "footwear for jogging" | Real embeddings + pgvector |
+| [IT Support Agent](https://github.com/aadeshmahesh/it-support-agent) | Diagnoses and fixes VPN + tool access | RAG + parallel tools |
+| [Calendar Agent](https://github.com/aadeshmahesh/calendar-agent) | Schedules meetings from natural language | Agentic loop + tool use |
 
 ---
 
-## 🧠 AI Concepts I've Built
+## AI Concepts I've Built
 
 ```
 ✅ Agentic Loop          while(stop_reason === "tool_use")
@@ -77,7 +67,7 @@ MCP servers, human-in-the-loop patterns, and multi-agent orchestration.
 
 ---
 
-## 🛠️ Stack
+## Stack
 
 **AI**  
 Anthropic Claude · Voyage AI · MCP Protocol · RAG · pgvector · Streaming SSE · AWS Bedrock · AWS Textract
@@ -96,7 +86,7 @@ Docker · AWS ECR · GitHub Actions · AWS API Gateway · AWS CDK · Railway · 
 
 ---
 
-## 📈 16 Years of Engineering
+## 16 Years of Engineering
 
 ```
 2010 → PHP, Perl, jQuery — e-commerce foundations
@@ -111,6 +101,6 @@ eliminating manual regional rollouts across large e-commerce program.
 
 ---
 
-## 🌐 Portfolio
+## Portfolio
 
 [maheshbuilds.dev](https://maheshbuilds.dev) — case studies, blog, and AI engineering notes
