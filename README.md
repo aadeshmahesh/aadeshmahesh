@@ -1,6 +1,11 @@
 # Hi, I'm Mahesh 👋
-**Senior Frontend Engineer → AI Full Stack Engineer**  
+**Senior Software Engineer | Frontend Engineering & Agentic AI Applications**  
 16 years experience · Scottsdale, AZ · Open to opportunities
+
+I bring 16+ years of software engineering experience, building enterprise web applications and leading frontend delivery. My core strengths are React, TypeScript, component architecture, API integration, and engineering mentorship.
+
+I also build personal AI applications with Node.js and the Anthropic API, exploring how retrieval, tool calling, and human approval can support useful application workflows.
+
 
 ---
 
